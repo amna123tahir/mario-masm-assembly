@@ -1,0 +1,14 @@
+Super Mario Bros — MASM Assembly (Console Version)
+
+Semester 3 COAL Project
+
+We were required to make a game in the terminal using Assembly. A simple ASCII project would have been enough, but of course someone had to taunt me, and I wanted to see just how far I could push myself. So instead of doing the logical thing and completing only the required features, I decided to recreate Super Mario Bros, complete with scrolling world, enemies, coins, power-ups, spikes, sound, high scores, file handling, and HUD — all inside the Windows Console, and all in pure MASM x86 Assembly.
+
+It took me 13 days of struggling, breaking things, fixing them, breaking them again, and reading whatever documentation I could find. Assembly doesn’t forgive you — every mistake is a crash, every typo is a bug, and every feature feels like lifting a mountain. I had to learn how to draw a game world manually inside the console, how to move characters, animate jumps, check collisions, implement camera scrolling, handle timers, read input without lag, update HUD elements, and even play WAV audio using WinMM. And somewhere in the middle of suffering, I actually started to enjoy it. Watching Mario move for the first time felt like magic.
+
+This project includes: side-scrolling world rendering; platforms, pipes, blocks, clouds and hills; coins and golden mushroom collectibles; spike traps and patrolling Goombas; a jump-boost power-up; smooth jump physics with mid-air movement; a countdown timer and lives system; background music with track switching and mute; name input and high-score saving; a complete menu system with sound options, instructions, and leaderboard; a pause screen; and a proper game-over screen. All drawn using ASCII. All timed and updated manually. All coded from scratch in Assembly.
+
+To run it, install MASM32 from http://www.masm32.com/download.htm
+. Set Visual Studio to 32-bit debugging, enable MASM build tools, set the subsystem to Console, and put main as the entry point. If you encounter the CONSTANT EXPECTED error in winextra.inc, change the brackets from [] to (). Place your music files (music1.wav, music2.wav, music3.wav) in the same folder as the executable. After that, just build and run — the game will open in the terminal.
+
+This journey was exhausting, frustrating, and honestly ridiculous. But it showed me what low-level programming really feels like. People once made entire engines, physics systems, and games far more complex than this using nothing but assembly, and on hardware a thousand times weaker. After this, I never want to open MASM again — but the experience was absolutely worth it. And nobody ever believes at first glance that this project was made in Assembly… which makes the suffering feel a little more justified.

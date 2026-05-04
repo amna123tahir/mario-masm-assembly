@@ -1,0 +1,20 @@
+# Large music files - too big for GitHub
+Resources/music1.wav
+Resources/music2.wav
+Resources/music3.wav
+
+# Compiled binaries
+*.exe
+*.obj
+*.o
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE folders
+.vscode/
+.idea/
